@@ -11,7 +11,7 @@ const NAv = () => {
         return <div>Loading ding </div>
     }
     const user = data?.user
-    console.log(user);
+    // console.log(user);
 
     return (
         <div>
@@ -21,8 +21,9 @@ const NAv = () => {
                         <Link href={'/'} className="font-bold">ACME</Link>
                     </div>
                     <ul className="flex items-center  gap-4">
-                        <li><Link href="#">Features</Link></li>
-                        <li><Link href="#">Pricing</Link></li>
+                        <li><Link href="/">Home</Link></li>
+                        <li><Link href="/dashboard">Dashboard</Link></li>
+                 
                     </ul>
                     <div>
                         {
